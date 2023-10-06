@@ -15,7 +15,7 @@ namespace ProvaPub.Services
 
         public CustomerList ListCustomers(int page)
         {
-            return new CustomerList() { HasNext = false, TotalCount = 10, Customers = _ctx.Customers.Where(p => p.Id == page).ToList() };
+            return new CustomerList() { HasNext = false, TotalCount = 10, Items = _ctx.Customers.Where(p => p.Id == page).ToList() };
         }
 
         public async Task<bool> CanPurchase(int customerId, decimal purchaseValue)

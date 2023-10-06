@@ -17,6 +17,7 @@ namespace ProvaPub.Controllers
 		/// 3 - Dê uma olhada nos arquivos /Models/CustomerList e /Models/ProductList. Veja que há uma estrutura que se repete. 
 		/// Como você faria pra criar uma estrutura melhor, com menos repetição de código? E quanto ao CustomerService/ProductService. Você acha que seria possível evitar a repetição de código?
 		/// 
+		/// Respondendo a  ultima perguna desse t[opicO: sim é possível evitar a repetiçao
 		/// </summary>
 		TestDbContext _ctx;
 		public Parte2Controller(TestDbContext ctx)
